@@ -2,9 +2,9 @@ const express = require('express');
 const socketServer = require('socket.io');
 
 /// SERVER ///
-console.log("8443");
+
 var app = express();
-var server = app.listen(8443, listening);
+var server = app.listen(8080, listening);
 
 app.use(express.static('public'));
 
