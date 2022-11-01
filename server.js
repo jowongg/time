@@ -5,6 +5,7 @@ const socketServer = require('socket.io');
 
 var app = express();
 var server = app.listen(8443, listening);
+console.log("8443");
 app.use(express.static('public'));
 
 function listening(){
