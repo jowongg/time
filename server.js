@@ -4,7 +4,7 @@ const socketServer = require('socket.io');
 /// SERVER ///
 
 var app = express();
-var server = app.listen(8080, listening);
+var server = app.listen(443, listening);
 
 app.use(express.static('public'));
 
